@@ -4,6 +4,8 @@
 
 **适用：M 系列芯片 Mac，已通过 Homebrew 安装 `unar`。**
 
+还没安装 Homebrew？先打开 **[Homebrew 官网](https://brew.sh/zh-cn/)**，按照官网指引安装。然后在终端执行一次 `brew install unar`，再继续下面的步骤。已经装好 `unar` 的可以直接下载。
+
 ## 1. 下载
 
 👉 **[点击下载](https://github.com/SHANPAO-orzw/unar-finder-action/raw/refs/heads/main/dist/unar-finder-action.zip)**
