@@ -16,7 +16,7 @@
 
 它会打开一个终端窗口。看到 **“安装完成！”** 就可以关闭窗口了，不用输入任何命令。
 
-如果之前安装过这个工具，会自动更新同名版本。
+安装器已经包含完整的快速操作，不需要再安装其他文件。如果之前安装过这个工具，会自动更新同名版本。
 
 ## 3. 解压文件
 
@@ -36,7 +36,7 @@
 
 **提示没找到 unar？** 只需先在终端执行一次 `brew install unar`，完成后重新双击安装器。日常解压不再需要终端。
 
-**系统不允许打开安装器？** 可以使用项目里的 [工作流文件](./解压到当前文件夹.workflow) 手动安装，或者将具体提示发到 [Issues](https://github.com/SHANPAO-orzw/unar-finder-action/issues)，方便排查。请勿反复安装以免产生重复入口。
+**系统不允许打开安装器？** 请将具体提示发到 [Issues](https://github.com/SHANPAO-orzw/unar-finder-action/issues)，方便排查。
 
 **想卸载？** 在访达顶部点击“前往 → 前往文件夹”，粘贴 `~/Library/Services/`，把“解压到当前文件夹.workflow”移到废纸篓即可。
 
@@ -44,7 +44,6 @@
 <summary>给想了解源码的人</summary>
 
 - `src/extract.sh`：解压与密码弹窗逻辑。
-- `解压到当前文件夹.workflow`：访达快速操作。
 - `install.command`：正式安装器。
 - `dist/unar-finder-action.zip`：直接给使用者下载的安装包，内含“安装.command”和“使用说明.txt”。
 
